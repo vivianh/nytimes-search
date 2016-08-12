@@ -1,0 +1,42 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="FilterSettingsRow">
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+    <style name="FilterSettingsText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+    </style>
+
+    <style name="Article">
+        <item name="android:paddingLeft">@dimen/article_horizontal_margin</item>
+        <item name="android:paddingTop">@dimen/article_vertical_margin</item>
+    </style>
+
+    <style name="ArticleText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:background">#BF303F9F</item>
+        <item name="android:opacity">translucent</item>
+        <item name="android:textColor">#FFF</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="ArticleImage">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="ArticleImageLandscape" parent="ArticleImage">
+        <item name="android:layout_width">240dp</item>
+    </style>
+</resources>

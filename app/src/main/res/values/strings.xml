@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">NYTimesSearch</string>
+    <string name="begin_date">Begin Date</string>
+    <string name="sort_order">Sort Order</string>
+    <string name="search">Search</string>
+    <string-array name="sort_order_array">
+        <item>Newest</item>
+        <item>Oldest</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fashion_style"><![CDATA[Fashion & Style]]></string>
+    <string name="arts">Arts</string>
+    <string name="sports">Sports</string>
+    <string name="news_desk_values">News Desk Values</string>
+    <string name="title_search_filters">Search Filters</string>
+</resources>
