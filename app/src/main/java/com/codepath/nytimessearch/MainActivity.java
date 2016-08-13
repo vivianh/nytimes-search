@@ -151,11 +151,11 @@ public class MainActivity extends AppCompatActivity {
     private void setFilterSettings(FilterSettings newSettings) {
         filterSettings = newSettings;
 
-        if (filterSettings.getBeginDate() != null) {
+        if (filterSettings.getBeginDate() != null || filterSettings.getBeginDate().length() > 0) {
             requestParams.put(PARAMETER_BEGIN_DATE, filterSettings.getBeginDate());
         }
 
-        if (filterSettings.getSortOrder() != null) {
+        if (filterSettings.getSortOrder() != null || filterSettings.getSortOrder().length() > 0) {
             requestParams.put(PARAMETER_SORT, filterSettings.getSortOrder());
         }
 

@@ -114,7 +114,7 @@ public class FilterSettingsDialogFragment extends DialogFragment implements Date
 
     @Override
     public void onDateSet(DatePicker datePicker, int year, int month, int day) {
-        String beginDate = String.format(Locale.ENGLISH, "%1$d%2$02d%3$02d", year, month, day);
+        String beginDate = String.format(Locale.ENGLISH, "%1$d%2$02d%3$02d", year, (month + 1), day);
         etBeginDate.setText(beginDate);
     }
 
